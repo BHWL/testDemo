@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		295FDE641DC0979400524B48 /* newtestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 295FDE631DC0979400524B48 /* newtestViewController.m */; };
 		296844B41DBF00EB00992DC5 /* test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 296844B31DBF00EB00992DC5 /* test2.jpg */; };
 		2970D27F1DBDBA6000A5D1EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2970D27E1DBDBA6000A5D1EB /* main.m */; };
 		2970D2821DBDBA6000A5D1EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2970D2811DBDBA6000A5D1EB /* AppDelegate.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		295FDE621DC0979400524B48 /* newtestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newtestViewController.h; sourceTree = "<group>"; };
+		295FDE631DC0979400524B48 /* newtestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newtestViewController.m; sourceTree = "<group>"; };
 		296844B31DBF00EB00992DC5 /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test2.jpg; path = ../../glrb/glrb/glrb/Images/all/test2.jpg; sourceTree = "<group>"; };
 		2970D27A1DBDBA6000A5D1EB /* GitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2970D27E1DBDBA6000A5D1EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -70,6 +73,8 @@
 				2970D28B1DBDBA6000A5D1EB /* LaunchScreen.storyboard */,
 				2970D28E1DBDBA6000A5D1EB /* Info.plist */,
 				2970D27D1DBDBA6000A5D1EB /* Supporting Files */,
+				295FDE621DC0979400524B48 /* newtestViewController.h */,
+				295FDE631DC0979400524B48 /* newtestViewController.m */,
 			);
 			path = GitDemo;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 				2970D2851DBDBA6000A5D1EB /* ViewController.m in Sources */,
 				2970D2821DBDBA6000A5D1EB /* AppDelegate.m in Sources */,
 				2970D27F1DBDBA6000A5D1EB /* main.m in Sources */,
+				295FDE641DC0979400524B48 /* newtestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
