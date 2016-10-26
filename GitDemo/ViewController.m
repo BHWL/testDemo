@@ -69,6 +69,15 @@
     }
 }
 
+//// 处理缩放手势
+//- (void) pinchView:(UIPinchGestureRecognizer *)pinchGestureRecognizer{
+//    UIView *view = pinchGestureRecognizer.view;
+//    if (pinchGestureRecognizer.state == UIGestureRecognizerStateBegan || pinchGestureRecognizer.state == UIGestureRecognizerStateChanged) {
+//        view.transform = CGAffineTransformScale(view.transform, pinchGestureRecognizer.scale, pinchGestureRecognizer.scale);
+//        pinchGestureRecognizer.scale = 1;
+//    }
+//}
+
 // 处理拖拉手势
 - (void) panView:(UIPanGestureRecognizer *)panGestureRecognizer{
     UIView *view = panGestureRecognizer.view;
