@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface newtestViewController : UIViewController
+@interface newtestViewController : UIViewController<UIGestureRecognizerDelegate>{
+    UIImageView *showImgView;
+}
 
 @end
