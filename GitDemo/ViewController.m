@@ -33,10 +33,12 @@
     [self addGestureRecognizerToView:showImgView];
     [self.view addSubview:showImgView];
     
-//    UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 320, 320)];
-//    imageView.image = [UIImage imageNamed:@""];
-//    [self.view addSubview:imageView];
-//    
+    NSLog(@"111");
+    
+    UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 320, 320)];
+    imageView.image = [UIImage imageNamed:@""];
+    [self.view addSubview:imageView];
+//
 //    
 ////    [self addGestureRecognizerToView:view];  
 // 
