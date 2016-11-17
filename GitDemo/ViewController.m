@@ -23,6 +23,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.title = @"1111";
+    
 //    showImgView = [[UIImageView alloc] initWithFrame:CGRectMake1(0,0, 320, 480)];
 //    [showImgView setMultipleTouchEnabled:YES];
 //    [showImgView setUserInteractionEnabled:YES];
