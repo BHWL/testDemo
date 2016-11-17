@@ -14,9 +14,12 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.autoSizeScaleX = [UIScreen mainScreen].bounds.size.width/375;
+    self.autoSizeScaleY = [UIScreen mainScreen].bounds.size.height/667;
+    
     return YES;
 }
 
